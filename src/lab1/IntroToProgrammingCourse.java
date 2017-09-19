@@ -17,21 +17,11 @@ public class IntroToProgrammingCourse extends Course{
     }
 
     @Override
-    public String getCourseNumber() {
-        return courseNumber;
-    }
-
-    @Override
     public void setCourseNumber(String courseNumber) {
         if(courseNumber == null || courseNumber.length() == 0){
             throw new IllegalArgumentException("Must be filled in");
         }
         this.courseNumber = courseNumber;
-    }
-
-    @Override
-    public double getCredits() {
-        return credits;
     }
     
     @Override
@@ -51,11 +41,6 @@ public class IntroToProgrammingCourse extends Course{
     @Override
     public void setPrerequisites(String prerequisites) {
         
-    }
-
-    @Override
-    public String getCourseName() {
-        return courseName;
     }
 
     @Override

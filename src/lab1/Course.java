@@ -21,13 +21,19 @@ public abstract class Course {
     
     public abstract void setCredits(double credits);
     
-    public abstract double getCredits();
+    public double getCredits(){
+        return credits;
+    }
 
-    public abstract String getCourseName();
+    public String getCourseName(){
+        return courseName;
+    }
 
     public abstract void setCourseName(String courseName);
 
-    public abstract String getCourseNumber();
+    public String getCourseNumber(){
+        return courseNumber;
+    }
 
     public abstract void setCourseNumber(String courseNumber);
 }

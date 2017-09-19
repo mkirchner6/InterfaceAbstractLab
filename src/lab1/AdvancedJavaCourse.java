@@ -35,25 +35,10 @@ public class AdvancedJavaCourse extends Course{
         }
         this.setCredits(credits);
     }
-    
-    @Override
-    public double getCredits() {
-        return credits;
-    }
-
-    @Override
-    public String getCourseName() {
-        return courseName;
-    }
 
     @Override
     public void setCourseName(String courseName) {
         this.courseName = courseName;
-    }
-
-    @Override
-    public String getCourseNumber() {
-        return courseNumber;
     }
 
     @Override
